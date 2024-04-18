@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="styles.css">
+    <title>Gerenciamento de Pacientes</title>
+</head>
+<body>
+     <div class="screen">
+            <h1>Gerenciamento de Pacientes</h1>
+        	<div class="navbar"></div>
+        	<div class="list"></div>
+	        <div class="circle"></div>
+			<div class="menu">
+				<ul>
+					<li><a href="">About</a></li>
+					<li><a href="">Share</a></li>
+					<li><a href="">Activity</a></li>
+                    <li><a href="">Settings</a></li>
+                    <li><a href="">Contact</a></li>
+				</ul>
+			</div>			            
+			<div class="burger">
+				<div class="x"></div>
+				<div class="y"></div>
+                <div class="z"></div>
+			</div>    
+		</div>	
+
+        <div class="container">
+            <form id="patientForm">
+                <input type="text" id="nameInput" placeholder="Nome do paciente">
+                <input type="text" id="ageInput" placeholder="Idade do paciente">
+                <input type="text" id="conditionInput" placeholder="Condição do paciente">
+                <button type="submit">Adicionar Paciente</button>
+            </form>
+            <ul id="patientList"></ul>
+        </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="main.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
